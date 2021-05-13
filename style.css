@@ -5,7 +5,7 @@
 .Canvas {
     /*canvasを中央に寄せる*/
     margin-left: calc(50vw - 240px);
-    padding-top: calc(50vh - 320px);
+    padding-top: calc(50vh - 20%);
    
 }
 
@@ -53,14 +53,14 @@
 }
 
 .background {
-    height: 674px;
+    height: 100%;
     background: rgb(149, 223, 236);
 }
 
 #button {
     position: relative;
     left: 50%;
-    top: 3%;
+    top: 13px;
     transform: translate(-50%, -50%);
     display: inline-block;
     padding: 0.2em 1em;
