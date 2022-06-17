@@ -1,3 +1,11 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 #canvas {
     background: #66CCFF;
 }
@@ -59,15 +67,16 @@
 
 #button {
     position: relative;
-    left: 50%;
-    top: 13px;
+    left: 50vw;
+    top: 30px;
     transform: translate(-50%, -50%);
     display: inline-block;
-    padding: 0.2em 1em;
+    padding: 0.6em 2em;
     text-decoration: none;
+    font-weight: bold;
     color: #67c5ff;
     border: solid 2px #67c5ff;
-    border-radius: 3px;
+    border-radius: 10px;
     transition: .4s;
 }
 
@@ -80,10 +89,11 @@
     position: fixed;
     transform: translate(-50%, -50%);
     top: 85%;
-    left: 50%;
+    left: 50vw;
     display: inline-block;
     padding: 0.6em 3em;
     text-decoration: none;
+    font-weight: bold;
     color: #000000;
     border: solid 2px #000000;
     border-radius: 10px;
